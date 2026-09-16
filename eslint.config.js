@@ -27,6 +27,16 @@ export default [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      // Keep spacing and punctuation consistent without requiring a separate formatter.
+      "array-bracket-spacing": ["error", "never"],
+      "object-curly-spacing": ["error", "always"],
+      "computed-property-spacing": ["error", "never"],
+      "keyword-spacing": ["error", { before: true, after: true }],
+      "space-before-blocks": ["error", "always"],
+      "space-in-parens": ["error", "never"],
+      "space-infix-ops": "error",
+      "arrow-spacing": ["error", { before: true, after: true }],
+      "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
     },
   },
 
